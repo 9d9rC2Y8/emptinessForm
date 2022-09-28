@@ -1,6 +1,6 @@
-baseurl = "https://username.github.io"
+baseurl = "https://9d9rc2y8.github.io/emptinessForm/"
 DefaultContentLanguage = "en"
-title = "Beautiful Hugo"
+title = "虚空之形Emptiness Form"
 theme = "beautifulhugo"
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
