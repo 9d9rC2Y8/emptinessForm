@@ -1,6 +1,6 @@
 baseurl = "https://9d9rc2y8.github.io/emptinessForm"
 DefaultContentLanguage = "en"
-title = "虚空之形Emptiness Form"
+title = "虚空之形"
 theme = "beautifulhugo"
 pygmentsStyle = "trac"
 pygmentsUseClasses = true
@@ -12,8 +12,8 @@ pygmentsCodefencesGuessSyntax = true
 #googleAnalytics = "XXX"
 
 [Params]
-#  homeTitle = "测试一下Beautiful Hugo Theme" # Set a different text for the header on the home page
-  subtitle = "Build a beautiful and simple website in minutes"
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "At that moment she realized she had a sixth sense."
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.jpeg" # Expecting square dimensions
   favicon = "img/favicon.ico"
