@@ -1,5 +1,6 @@
 baseurl = "https://9d9rc2y8.github.io/emptinessForm"
-DefaultContentLanguage = "en"
+#defaultContentLanguage = "zh-cn"           # Default language to use
+defaultContentLanguage = "en"           # Default language to use
 title = "虚空之形"
 theme = "beautifulhugo"
 pygmentsStyle = "trac"
@@ -10,6 +11,9 @@ pygmentsCodefencesGuessSyntax = true
 #pygmentOptions = "linenos=inline"
 #disqusShortname = "XXX"
 #googleAnalytics = "XXX"
+
+#[languages.zh-cn]
+#  languageCode = "zh-cn"
 
 [Params]
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
@@ -43,7 +47,7 @@ pygmentsCodefencesGuessSyntax = true
 #  desc = "Hexagon"
 
 [Author]
-  name = "Some Person"
+  name = "三英一"
   website = "yourwebsite.com"
   email = "youremail@domain.com"
   facebook = "username"
@@ -63,29 +67,15 @@ pygmentsCodefencesGuessSyntax = true
     weight = 3
 
 [[menu.main]]
-    identifier = "samples"
-    name = "Samples"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
-    weight = 1
-
-[[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
-    weight = 3
-
-[[menu.main]]
     name = "Tags"
     url = "tags"
     weight = 3
+
+
+# [languages]
+#   [languages.en] 
+#     contentDir = "content/en" # English
+#   [languages.ja]
+#     contentDir = "content/ja" # Japanese
+#   [languages.br]
+#    contentDir = "content/zh-CN"  
