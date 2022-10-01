@@ -19,7 +19,7 @@ pygmentsCodefencesGuessSyntax = true
 #  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
   subtitle = "At that moment she realized she had a sixth sense."
   mainSections = ["post","posts"]
-  logo = "img/avatar-icon.jpeg" # Expecting square dimensions
+  logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
   dateFormat = "January 2, 2006"
   commit = false
@@ -47,7 +47,7 @@ pygmentsCodefencesGuessSyntax = true
 #  desc = "Hexagon"
 
 [Author]
-  name = "三英一"
+  name = "淀粉阿姨"
   website = "yourwebsite.com"
   email = "youremail@domain.com"
   facebook = "username"
